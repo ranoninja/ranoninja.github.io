@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+  
+	<script src="js/jquery-2.1.3.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: false,
+        responsive: 900,
+        navigation: true,
+				navigationPosition: 'right',
+				css3:false
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section row table" id="section0">
+    <div class="col-md-4 col-md-offset-1 ">
+      <h1>  Rano et son pot ninja </h1>
+      <p> et vas-y que ça envoie du steak au Rock'n'solex ! </p>
+    </div>
+  </div>
+	<div class="section" id="section1">
+    <div class="col-md-4 col-md-offset-1 ">
+      <h1>"Si t'as 30 ans et que t'as pas <br />de site internet, t'as raté ta vie !" <br />Nico S.</h1>
+    </div>
+  </div>
+	<div class="section" id="section2">
+    <div class="col-md-4 col-md-offset-1 ">
+      <h1>Héhé</h1>
+    </div>
+  </div>
+  <div class="section" id="section3">
+    <div class="col-md-4 col-md-offset-7 ">
+      <h1>  Ah bah elle est bien bonne celle la !</h1>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

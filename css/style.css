@@ -1,0 +1,39 @@
+#section0,
+#section1,
+#section2,
+#section3{
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#section0{
+  background-image: url(../img/4.jpg);
+  padding: 10% 0 0 0;
+}
+#section1{
+  background-image: url(../img/1.jpg);
+  padding: 10% 0 0 0;
+  
+}
+#section2{
+  background-image: url(../img/2.jpg);
+  padding: 10% 0 0 0;
+  
+}
+#section3{
+  background-image: url(../img/3.jpg);
+  padding: 10% 0 0 0;
+}
+
+.section h1 {
+  color: #FFFFFF
+}
+
+/* Bootstrap Overides */
+.row {
+	margin: 0 !important;
+}
+.table {
+	margin: 0 !important;
+}
+
