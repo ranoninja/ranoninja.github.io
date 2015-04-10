@@ -8,25 +8,83 @@
 
 #section0{
   background-image: url(../img/4.jpg);
-  padding: 10% 0 0 0;
+  padding: 6% 0 0 0;
 }
 #section1{
-  background-image: url(../img/1.jpg);
-  padding: 10% 0 0 0;
+  background-image: url(../img/2.jpg);
+  padding: 6% 0 0 0;
   
 }
 #section2{
-  background-image: url(../img/2.jpg);
-  padding: 10% 0 0 0;
-  
+  background-color: #000000;
+  padding: 0;
 }
+
 #section3{
   background-image: url(../img/3.jpg);
-  padding: 10% 0 0 0;
+  padding: 6% 0 0 0;
+}
+
+div#v1{
+  background-image: url(../img/v1.jpg);
+  background-size: cover;
+}
+div#v2{
+  background-image: url(../img/v2.jpg);
+  background-size: cover;
+}
+div#v3{
+  background-image: url(../img/v3.jpg);
+  background-size: cover;
+}
+div#v4{
+  background-image: url(../img/v4.jpg);
+  background-size: cover;
+}
+div#h1{
+  background-image: url(../img/h1.jpg);
+  background-size: cover;
+}
+div#h2{
+  background-image: url(../img/h2.jpg);
+  background-size: cover;
+}
+div#h3{
+  background-image: url(../img/h3.jpg);
+  background-size: cover;
+}
+div#h4{
+  background-image: url(../img/h4.jpg);
+  background-size: cover;
+}
+
+div.v {
+  height:66%;
+  padding: 0 ;
+  opacity: 0.6; 
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+}
+div.v:hover {
+  opacity: 1;
+}
+
+div.h {
+  height:34%;
+  padding: 0 ;
+  opacity: 0.6; 
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+}
+div.h:hover {
+  opacity: 1;
 }
 
 .section h1 {
-  color: #FFFFFF
+  color: #DDDDDD
+}
+.section h2 {
+  color: #555555
 }
 
 /* Bootstrap Overides */
@@ -37,3 +95,7 @@
 	margin: 0 !important;
 }
 
+div.fullcol {
+  height: 100%;
+  padding: 0 ;
+}
